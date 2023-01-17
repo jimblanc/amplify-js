@@ -1,0 +1,23 @@
+name: Bundle Size Checks
+
+# Run check on every PR submitted for review against `main`
+#
+# See: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_target
+on:
+  pull_request:
+    types: [ready_for_review]
+    branches: [main]
+
+jobs:
+  size:
+    runs-on: ubuntu-latest
+    env:
+      CI_JOB_NUMBER: 1
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - uses: andresz1/size-limit-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
