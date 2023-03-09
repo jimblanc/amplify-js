@@ -30,6 +30,16 @@
     "lint": "tslint '{__tests__,src}/**/*.ts' && npm run ts-coverage",
     "ts-coverage": "typescript-coverage-report -p ./tsconfig.build.json -t 77.44"
   },
+  "exports": {
+    ".": {
+      "import": "./lib-esm/index.js",
+      "require": "./lib/index.js"
+    },
+    "./cognito": {
+      "import": "./lib-esm/providers/cognito/index.js",
+      "require": "./lib/providers/cognito/index.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/aws-amplify/amplify-js.git"
