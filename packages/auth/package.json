@@ -30,14 +30,34 @@
     "lint": "tslint '{__tests__,src}/**/*.ts' && npm run ts-coverage",
     "ts-coverage": "typescript-coverage-report -p ./tsconfig.build.json -t 77.44"
   },
+  "typesVersions": {
+    ">=3.8": {
+      "*": [
+        "./lib-esm/index.d.ts"
+      ],
+      "cognito": [
+        "./lib-esm/providers/cognito/index.d.ts"
+      ],
+      "auth0": [
+        "./lib-esm/providers/auth0/index.d.ts"
+      ]
+    }
+  },
   "exports": {
     ".": {
+      "types": "./lib-esm/index.d.ts",
       "import": "./lib-esm/index.js",
       "require": "./lib/index.js"
     },
     "./cognito": {
+      "types": "./lib-esm/providers/cognito/index.d.ts",
       "import": "./lib-esm/providers/cognito/index.js",
       "require": "./lib/providers/cognito/index.js"
+    },
+    "./auth0": {
+      "types": "./lib-esm/providers/auth0/index.d.ts",
+      "import": "./lib-esm/providers/auth0/index.js",
+      "require": "./lib/providers/auth0/index.js"
     }
   },
   "repository": {

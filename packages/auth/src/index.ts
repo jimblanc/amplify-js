@@ -28,6 +28,3 @@ export {
 	AuthErrorStrings,
 	GRAPHQL_AUTH_MODE,
 };
-
-// Provider specific types
-export * from './providers/cognito';
