@@ -30,7 +30,7 @@ import {
 	EndpointFailureData,
 } from '../types';
 import { v1 as uuid } from 'uuid';
-import { getAnalyticsUserAgentString } from '../utils/UserAgent';
+import { getAnalyticsUserAgentString } from '../utils/userAgent';
 import EventBuffer from './EventBuffer';
 
 const AMPLIFY_SYMBOL = (

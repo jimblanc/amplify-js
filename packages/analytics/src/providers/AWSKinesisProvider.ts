@@ -9,7 +9,7 @@ import {
 import { KinesisClient, PutRecordsCommand } from '@aws-sdk/client-kinesis';
 import { AnalyticsProvider } from '../types';
 import { fromUtf8 } from '@aws-sdk/util-utf8-browser';
-import { getAnalyticsUserAgent } from '../utils/UserAgent';
+import { getAnalyticsUserAgent } from '../utils/userAgent';
 
 const logger = new Logger('AWSKinesisProvider');
 

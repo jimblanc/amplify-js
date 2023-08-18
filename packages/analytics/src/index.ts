@@ -15,5 +15,5 @@ export {
 } from './providers';
 */
 
-// Default provider types
-export * from './providers/pinpoint';
+// Default apis
+export * from './apis';

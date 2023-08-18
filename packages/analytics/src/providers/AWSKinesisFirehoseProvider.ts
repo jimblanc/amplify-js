@@ -8,7 +8,7 @@ import {
 	FirehoseClient,
 } from '@aws-sdk/client-firehose';
 import { fromUtf8 } from '@aws-sdk/util-utf8-browser';
-import { getAnalyticsUserAgent } from '../utils/UserAgent';
+import { getAnalyticsUserAgent } from '../utils/userAgent';
 
 const logger = new Logger('AWSKineisFirehoseProvider');
 

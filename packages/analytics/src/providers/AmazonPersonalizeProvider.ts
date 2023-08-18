@@ -23,7 +23,7 @@ import get from 'lodash/get';
 import isEmpty from 'lodash/isEmpty';
 import isEqual from 'lodash/isEqual';
 import { AnalyticsProvider } from '../types';
-import { getAnalyticsUserAgent } from '../utils/UserAgent';
+import { getAnalyticsUserAgent } from '../utils/userAgent';
 
 const logger = new Logger('AmazonPersonalizeProvider');
 
