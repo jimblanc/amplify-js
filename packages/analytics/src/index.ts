@@ -15,5 +15,5 @@ export {
 } from './providers';
 */
 
-// Default apis
+// Default provider APIs
 export * from './apis';
