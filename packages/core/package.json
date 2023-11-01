@@ -84,6 +84,34 @@
 		},
 		"./package.json": "./package.json"
 	},
+	"typesVersions": {
+		">=4.2": {
+			"server": [
+				"./lib-esm/server.d.ts"
+			],
+			"internals/adapter-core": [
+				"./lib-esm/adapterCore/index.d.ts"
+			],
+			"internals/aws-client-utils": [
+				"./lib-esm/clients/index.d.ts"
+			],
+			"internals/aws-client-utils/composers": [
+				"./lib-esm/clients/internal/index.d.ts"
+			],
+			"internals/aws-clients/cognitoIdentity": [
+				"./lib-esm/awsClients/cognitoIdentity/index.d.ts"
+			],
+			"internals/aws-clients/pinpoint": [
+				"./lib-esm/awsClients/pinpoint/index.d.ts"
+			],
+			"internals/providers/pinpoint": [
+				"./lib-esm/providers/pinpoint/index.d.ts"
+			],
+			"internals/utils": [
+				"./lib-esm/libraryUtils.d.ts"
+			]
+		}
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/aws-amplify/amplify-js.git"
