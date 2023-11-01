@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/datastore@4.7.5...@aws-amplify/datastore@5.1.0) (2023-11-01)
+
+### Bug Fixes
+
+- **datastore:** crypto random numbers for ulid factory ([#12435](https://github.com/aws-amplify/amplify-js/issues/12435)) ([f405448](https://github.com/aws-amplify/amplify-js/commit/f405448e81a252e5f377d935a9f8d9d5c1532047))
+- **datastore:** parse error status code without axios-specific error message ([#12317](https://github.com/aws-amplify/amplify-js/issues/12317)) ([900e4d5](https://github.com/aws-amplify/amplify-js/commit/900e4d5422212b49bee1ae72d8917e3d7d8c499b))
+- **datastore:** re-enable 2 unit tests ([#12401](https://github.com/aws-amplify/amplify-js/issues/12401)) ([1b74ef6](https://github.com/aws-amplify/amplify-js/commit/1b74ef68ac13fdc94c569324f21fe4ec56a63091))
+- **datastore:** subs disable issue ([#12348](https://github.com/aws-amplify/amplify-js/issues/12348)) ([75385ae](https://github.com/aws-amplify/amplify-js/commit/75385aef0cb09b1cce56a9ed556e767d0c8a62c7))
+
+### Features
+
+- **api:** update API config interface ([#12122](https://github.com/aws-amplify/amplify-js/issues/12122)) ([3e17805](https://github.com/aws-amplify/amplify-js/commit/3e1780544f16fc769bb3c7316b413b966c909515))
+- change JS target to ES2020 ([#12365](https://github.com/aws-amplify/amplify-js/issues/12365)) ([381b201](https://github.com/aws-amplify/amplify-js/commit/381b2010afb0ca72d392307d4da64af3ca146d6f))
+- **core:** add amplifyUuid and amplifyUrl with builtin polyfill loader for RN ([a4ad9e0](https://github.com/aws-amplify/amplify-js/commit/a4ad9e09d6098a53f4530d9fa9112c81b409a605))
+- **data:** add GraphQL API V6 support for custom headers, non-Appsync endpoints, and custom domains; add / update tests ([#12185](https://github.com/aws-amplify/amplify-js/issues/12185)) ([6d5afce](https://github.com/aws-amplify/amplify-js/commit/6d5afce390687e925438d6d208a18c84e61399a9))
+- **interactions:** adapt v6 api design ([#12285](https://github.com/aws-amplify/amplify-js/issues/12285)) ([76471b6](https://github.com/aws-amplify/amplify-js/commit/76471b6488efc37d7d0bdc1feb7fcbc97334ec7c))
+- **react-native:** add moduleLoaders ([1bd0faf](https://github.com/aws-amplify/amplify-js/commit/1bd0faf75602e48a42bb03f8d09c028ed812ed68))
+- V6 api graphql ssr ([#12214](https://github.com/aws-amplify/amplify-js/issues/12214)) ([d4a8756](https://github.com/aws-amplify/amplify-js/commit/d4a8756ac7bc2fcc91e963ff86fd68e7610d3e73))
+
 ## 4.7.4 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/datastore

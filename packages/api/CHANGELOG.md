@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/api@5.4.5...@aws-amplify/api@6.1.0) (2023-11-01)
+
+### Features
+
+- Add GraphQL user agent info. ([#12366](https://github.com/aws-amplify/amplify-js/issues/12366)) ([b4c2654](https://github.com/aws-amplify/amplify-js/commit/b4c2654a26c9f64042d21825b05fcd3a9ab96fb6))
+- **api-rest:** internal API handling GraphQL requests ([#12138](https://github.com/aws-amplify/amplify-js/issues/12138)) ([3bbd5d9](https://github.com/aws-amplify/amplify-js/commit/3bbd5d91926d90d58fbdab3516ed546c3be7b37c))
+- **api:** REST API handlers ([#12172](https://github.com/aws-amplify/amplify-js/issues/12172)) ([8d0489f](https://github.com/aws-amplify/amplify-js/commit/8d0489f0fafad9eb26fc4bd6be97ba13aa345448))
+- Better api graphql types ([#12175](https://github.com/aws-amplify/amplify-js/issues/12175)) ([7236358](https://github.com/aws-amplify/amplify-js/commit/7236358a2412264f97a7e15250ee0d5bafae1e7b))
+- change JS target to ES2020 ([#12365](https://github.com/aws-amplify/amplify-js/issues/12365)) ([381b201](https://github.com/aws-amplify/amplify-js/commit/381b2010afb0ca72d392307d4da64af3ca146d6f))
+- **data:** add GraphQL API V6 support for custom headers, non-Appsync endpoints, and custom domains; add / update tests ([#12185](https://github.com/aws-amplify/amplify-js/issues/12185)) ([6d5afce](https://github.com/aws-amplify/amplify-js/commit/6d5afce390687e925438d6d208a18c84e61399a9))
+- **data:** add request cancellation functionality to GraphQL API V6 ([#12142](https://github.com/aws-amplify/amplify-js/issues/12142)) ([335b6f1](https://github.com/aws-amplify/amplify-js/commit/335b6f1ca4398bef8ebcd4861e63e8dff9e15c57))
+- **data:** migrate `zen-observable-ts` to `rxjs` for API category packages ([#12081](https://github.com/aws-amplify/amplify-js/issues/12081)) ([51a8a54](https://github.com/aws-amplify/amplify-js/commit/51a8a548241563f750d90532ea548e475ffff0cc))
+- ssr support for graphql ([#12430](https://github.com/aws-amplify/amplify-js/issues/12430)) ([6f4d984](https://github.com/aws-amplify/amplify-js/commit/6f4d98474db133959560232e3e4804ca84c4ba89))
+- V6 api graphql ssr ([#12214](https://github.com/aws-amplify/amplify-js/issues/12214)) ([d4a8756](https://github.com/aws-amplify/amplify-js/commit/d4a8756ac7bc2fcc91e963ff86fd68e7610d3e73))
+
+### Reverts
+
+- Revert "update API exports" ([fc87f24](https://github.com/aws-amplify/amplify-js/commit/fc87f24eb8da001525f064050343755bb73ea427))
+
 ## 5.4.4 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/api

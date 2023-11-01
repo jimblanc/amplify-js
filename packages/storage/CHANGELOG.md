@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/storage@5.9.5...@aws-amplify/storage@6.1.0) (2023-11-01)
+
+### Bug Fixes
+
+- Fixed UA import path ([#12248](https://github.com/aws-amplify/amplify-js/issues/12248)) ([228cd00](https://github.com/aws-amplify/amplify-js/commit/228cd007c236112b95ffd8b617f758e710cba415))
+- **storage:** assertion for maxUrlExpiration in getUrl api ([#11981](https://github.com/aws-amplify/amplify-js/issues/11981)) ([2af0ca0](https://github.com/aws-amplify/amplify-js/commit/2af0ca0a9cc4628761be9a0c5926b40e07f2b73b))
+- **storage|aws-amplify:** export server apis from the subpaths ([#11910](https://github.com/aws-amplify/amplify-js/issues/11910)) ([23fa46a](https://github.com/aws-amplify/amplify-js/commit/23fa46a9c714273449861baf12bfa6a2ebd1ce9e))
+- **storage:** address actionable TODOs ([#12414](https://github.com/aws-amplify/amplify-js/issues/12414)) ([20e9a79](https://github.com/aws-amplify/amplify-js/commit/20e9a799c8260f61a4b4d7d637b67f5d0e427322))
+- **storage:** align cancel behavior with api-rest ([#12239](https://github.com/aws-amplify/amplify-js/issues/12239)) ([f8a7145](https://github.com/aws-amplify/amplify-js/commit/f8a7145f67d9db12fc52608b4202e08c02613feb))
+- **storage:** CanceledError not a StorageError; cannot cancel paused task ([#11922](https://github.com/aws-amplify/amplify-js/issues/11922)) ([b06ce0d](https://github.com/aws-amplify/amplify-js/commit/b06ce0d2480125ea0c6ea3f9a2eff85d9eb08dd3))
+- **storage:** fix listOutput types ([#12027](https://github.com/aws-amplify/amplify-js/issues/12027)) ([7c21708](https://github.com/aws-amplify/amplify-js/commit/7c217083c826d9e842a04fae6bc08f51a7b7e82f))
+- **storage:** list bug fix ([#11873](https://github.com/aws-amplify/amplify-js/issues/11873)) ([9a4dc6d](https://github.com/aws-amplify/amplify-js/commit/9a4dc6d8ba40036b12031b55ffcb250e75d261f2))
+- **storage:** make sure s3 service error throws as StorageError ([#11951](https://github.com/aws-amplify/amplify-js/issues/11951)) ([fbac776](https://github.com/aws-amplify/amplify-js/commit/fbac77681b5916f3ea8f0309f363143fd358d39a))
+- **storage:** passing options in getProperties api while calling getUrl ([#11966](https://github.com/aws-amplify/amplify-js/issues/11966)) ([677dffa](https://github.com/aws-amplify/amplify-js/commit/677dffa2469bf22c5686d02ee669d9b21f4dbafa))
+- **storage:** react-native picks up wrong utils/client/runtime ([09a41a6](https://github.com/aws-amplify/amplify-js/commit/09a41a65f5868baa6a00605823fb9fc442ab9749))
+- **storage:** remove targetIdentityId from upload and remove api ([#11990](https://github.com/aws-amplify/amplify-js/issues/11990)) ([a1dfe9f](https://github.com/aws-amplify/amplify-js/commit/a1dfe9f8a4ad05397f0519a96a6e7ba5f8484ca0))
+- **storage:** rename list request path to prefix ([#11997](https://github.com/aws-amplify/amplify-js/issues/11997)) ([bc302ee](https://github.com/aws-amplify/amplify-js/commit/bc302ee4eb9a89253077ce08130f1e09120173c4))
+- **storage:** replace BufferSource with subtypes for types to get picked up ([#12283](https://github.com/aws-amplify/amplify-js/issues/12283)) ([931dc82](https://github.com/aws-amplify/amplify-js/commit/931dc823285114d4e1ecdbaadf5bb96945f31d09))
+- **storage:** resolve to fetch instead of xhr in some case of RN ([#12354](https://github.com/aws-amplify/amplify-js/issues/12354)) ([042a6fd](https://github.com/aws-amplify/amplify-js/commit/042a6fd8f079dbc24e0fc213a8a2d78e24280fbf))
+- **storage:** resolveS3ConfigAndInput not using injected fetchAuthSession ([#11976](https://github.com/aws-amplify/amplify-js/issues/11976)) ([e561195](https://github.com/aws-amplify/amplify-js/commit/e561195255d4eb0e92bb1f2a4d5c0fbd31b9c28b))
+- **Storage:** update storage type names ([#12022](https://github.com/aws-amplify/amplify-js/issues/12022)) ([db05277](https://github.com/aws-amplify/amplify-js/commit/db0527717d3ca97e4a0a5916c9fe18705a6dfc05))
+
+### Features
+
+- add storage list functional api ([#11756](https://github.com/aws-amplify/amplify-js/issues/11756)) ([c303e02](https://github.com/aws-amplify/amplify-js/commit/c303e02e204107736e56ddfad31650126b228419))
+- add storage remove functional api ([#11789](https://github.com/aws-amplify/amplify-js/issues/11789)) ([e43f807](https://github.com/aws-amplify/amplify-js/commit/e43f807505c9b13f2c63b89e86746a0be33a106b))
+- **core:** add amplifyUuid and amplifyUrl with builtin polyfill loader for RN ([a4ad9e0](https://github.com/aws-amplify/amplify-js/commit/a4ad9e09d6098a53f4530d9fa9112c81b409a605))
+- disallow targetIdentityId option in all S3 write APIs and category API ([#12034](https://github.com/aws-amplify/amplify-js/issues/12034)) ([2abb136](https://github.com/aws-amplify/amplify-js/commit/2abb1367c5359502175031a63d04a57d784d7f1a))
+- loosen required targetIdnetityId when accessLevel is protected ([#11947](https://github.com/aws-amplify/amplify-js/issues/11947)) ([833cb30](https://github.com/aws-amplify/amplify-js/commit/833cb30e99157e3b733afff77f4fa2034264a717))
+- PubSub for V6 ([#12265](https://github.com/aws-amplify/amplify-js/issues/12265)) ([32d7532](https://github.com/aws-amplify/amplify-js/commit/32d7532d25dd70a552dad82b4ae197dafe118a30))
+- **react-native,core,storage:** add polyfill loaders ([1905829](https://github.com/aws-amplify/amplify-js/commit/1905829e58531e606210740b1bd889bee0ef7e21))
+- **storage:** add bytesRange option for downloadData ([bcb8da8](https://github.com/aws-amplify/amplify-js/commit/bcb8da80e748f4360d5b21ebf2431dafd5650545))
+- **storage:** add storage copy API ([#11809](https://github.com/aws-amplify/amplify-js/issues/11809)) ([b418a10](https://github.com/aws-amplify/amplify-js/commit/b418a1042bbaa464059b266d5a024298a8172158))
+- **storage:** add StorageError and credentials validation ([#11698](https://github.com/aws-amplify/amplify-js/issues/11698)) ([88e475f](https://github.com/aws-amplify/amplify-js/commit/88e475f7e7fbbf2e51b015fa9dbd947d15b9d6bf))
+- **storage:** change enums to string unions ([#12056](https://github.com/aws-amplify/amplify-js/issues/12056)) ([e753f3b](https://github.com/aws-amplify/amplify-js/commit/e753f3bb255c88b470b8819a89aff4983bf2cd41))
+- **storage:** common interface and structural change for functional refactor ([#11679](https://github.com/aws-amplify/amplify-js/issues/11679)) ([82cba57](https://github.com/aws-amplify/amplify-js/commit/82cba5775a30b46e71fab098377fa9931fc1ee2b))
+- **storage:** consolidate shared config resolution & reconstructure types ([#11871](https://github.com/aws-amplify/amplify-js/issues/11871)) ([52f5e19](https://github.com/aws-amplify/amplify-js/commit/52f5e195dbd9a2211f4bfea6a1c94500a71a2ff1))
+- **storage:** export additional types ([#12030](https://github.com/aws-amplify/amplify-js/issues/12030)) ([d76d166](https://github.com/aws-amplify/amplify-js/commit/d76d166fe5a514eecb37aa1ba273840aac5e3d29))
+- **storage:** expose the defaultPrefixResolver from storage/s3/utils subpath ([9eefbfb](https://github.com/aws-amplify/amplify-js/commit/9eefbfb440ae54f5073b7a1b006af650ca59bf61))
+- **storage:** functional storage library options ([#11699](https://github.com/aws-amplify/amplify-js/issues/11699)) ([5e155a4](https://github.com/aws-amplify/amplify-js/commit/5e155a46a2619f09ddcfce12343233266ba9e902))
+- **storage:** functional uploadData API ([#11893](https://github.com/aws-amplify/amplify-js/issues/11893)) ([c3095ce](https://github.com/aws-amplify/amplify-js/commit/c3095cec08a324a67277bd66e28d7d0494556cae))
+- **storage:** implement default prefix resolver ([#11724](https://github.com/aws-amplify/amplify-js/issues/11724)) ([0576a08](https://github.com/aws-amplify/amplify-js/commit/0576a08051f9e86187ac0055adf72b220d91b411))
+- **storage:** implement functional downloadData ([#11823](https://github.com/aws-amplify/amplify-js/issues/11823)) ([5dac90a](https://github.com/aws-amplify/amplify-js/commit/5dac90a41bcc418adf840977bd2f9f8a06b9535e))
+- **storage:** implement getProperties functional and util functions ([#11727](https://github.com/aws-amplify/amplify-js/issues/11727)) ([8210987](https://github.com/aws-amplify/amplify-js/commit/82109871c84cd82c02cd4b1b88db79ae1693bb9a))
+- **storage:** implement getUrl functional ([#11748](https://github.com/aws-amplify/amplify-js/issues/11748)) ([1348b0a](https://github.com/aws-amplify/amplify-js/commit/1348b0af3136f14ec88f17cab161615027ed5047))
+- **storage:** make storage apis runnable with the server context ([#11858](https://github.com/aws-amplify/amplify-js/issues/11858)) ([ff4d0ed](https://github.com/aws-amplify/amplify-js/commit/ff4d0edfb319cf96e07360b8b13a61b1802a0561))
+- **storage:** make the copy API runnable with server context ([#11892](https://github.com/aws-amplify/amplify-js/issues/11892)) ([056350e](https://github.com/aws-amplify/amplify-js/commit/056350e77be3acb75d432f6d4ccde8f84d30db84))
+
 ## 5.9.4 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/storage

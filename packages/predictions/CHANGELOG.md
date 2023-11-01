@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/predictions@5.5.5...@aws-amplify/predictions@6.1.0) (2023-11-01)
+
+### Features
+
+- integrate predictions with v6 ([#12313](https://github.com/aws-amplify/amplify-js/issues/12313)) ([80b63ee](https://github.com/aws-amplify/amplify-js/commit/80b63ee4a4a6b0db45eb7f229438bbbcf067dba8)), closes [#11983](https://github.com/aws-amplify/amplify-js/issues/11983) [#12193](https://github.com/aws-amplify/amplify-js/issues/12193) [#12237](https://github.com/aws-amplify/amplify-js/issues/12237) [#12266](https://github.com/aws-amplify/amplify-js/issues/12266) [#12312](https://github.com/aws-amplify/amplify-js/issues/12312)
+- **predictions:** specify identifyEntity metadata type ([#12470](https://github.com/aws-amplify/amplify-js/issues/12470)) ([18f8976](https://github.com/aws-amplify/amplify-js/commit/18f89760abfd8c8149dd3ac43411fd13a15f8ea8))
+- prep predictions for publish ([#12441](https://github.com/aws-amplify/amplify-js/issues/12441)) ([54633aa](https://github.com/aws-amplify/amplify-js/commit/54633aaada686c185f6ac8fe4da5af5adc85400c))
+
 ## 5.5.4 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/predictions

@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/api-graphql@3.4.11...@aws-amplify/api-graphql@4.1.0) (2023-11-01)
+
+### Bug Fixes
+
+- **api-graphql:** Reintroduce subscription tests ([#12416](https://github.com/aws-amplify/amplify-js/issues/12416)) ([6157c46](https://github.com/aws-amplify/amplify-js/commit/6157c46a0c6927a2fbf15ccb38a3f0c5c9f13a25))
+- **api-graphql:** Subscription authtype overriding ([#12412](https://github.com/aws-amplify/amplify-js/issues/12412)) ([b5fb51f](https://github.com/aws-amplify/amplify-js/commit/b5fb51f61c80cd3e74fcd6ac45ce6b68842f5636))
+- **api:** remove runtime dep on buffer ([#12378](https://github.com/aws-amplify/amplify-js/issues/12378)) ([af04846](https://github.com/aws-amplify/amplify-js/commit/af048463dfec201394920e93dd997475ab1a167c))
+- Fix regression in InternalGraphQL client & broken tests ([#12196](https://github.com/aws-amplify/amplify-js/issues/12196)) ([7158425](https://github.com/aws-amplify/amplify-js/commit/71584250cb94a6e483e0741604991a42a4418e59))
+- **storage|aws-amplify:** export server apis from the subpaths ([#11910](https://github.com/aws-amplify/amplify-js/issues/11910)) ([23fa46a](https://github.com/aws-amplify/amplify-js/commit/23fa46a9c714273449861baf12bfa6a2ebd1ce9e))
+
+### Features
+
+- Add GraphQL user agent info. ([#12366](https://github.com/aws-amplify/amplify-js/issues/12366)) ([b4c2654](https://github.com/aws-amplify/amplify-js/commit/b4c2654a26c9f64042d21825b05fcd3a9ab96fb6))
+- **api-rest:** internal API handling GraphQL requests ([#12138](https://github.com/aws-amplify/amplify-js/issues/12138)) ([3bbd5d9](https://github.com/aws-amplify/amplify-js/commit/3bbd5d91926d90d58fbdab3516ed546c3be7b37c))
+- **api:** REST API handlers ([#12172](https://github.com/aws-amplify/amplify-js/issues/12172)) ([8d0489f](https://github.com/aws-amplify/amplify-js/commit/8d0489f0fafad9eb26fc4bd6be97ba13aa345448))
+- **api:** update API config interface ([#12122](https://github.com/aws-amplify/amplify-js/issues/12122)) ([3e17805](https://github.com/aws-amplify/amplify-js/commit/3e1780544f16fc769bb3c7316b413b966c909515))
+- Better api graphql types ([#12175](https://github.com/aws-amplify/amplify-js/issues/12175)) ([7236358](https://github.com/aws-amplify/amplify-js/commit/7236358a2412264f97a7e15250ee0d5bafae1e7b))
+- change JS target to ES2020 ([#12365](https://github.com/aws-amplify/amplify-js/issues/12365)) ([381b201](https://github.com/aws-amplify/amplify-js/commit/381b2010afb0ca72d392307d4da64af3ca146d6f))
+- **core:** add amplifyUuid and amplifyUrl with builtin polyfill loader for RN ([a4ad9e0](https://github.com/aws-amplify/amplify-js/commit/a4ad9e09d6098a53f4530d9fa9112c81b409a605))
+- **data:** add GraphQL API V6 support for custom headers, non-Appsync endpoints, and custom domains; add / update tests ([#12185](https://github.com/aws-amplify/amplify-js/issues/12185)) ([6d5afce](https://github.com/aws-amplify/amplify-js/commit/6d5afce390687e925438d6d208a18c84e61399a9))
+- **data:** add request cancellation functionality to GraphQL API V6 ([#12142](https://github.com/aws-amplify/amplify-js/issues/12142)) ([335b6f1](https://github.com/aws-amplify/amplify-js/commit/335b6f1ca4398bef8ebcd4861e63e8dff9e15c57))
+- **data:** migrate `zen-observable-ts` to `rxjs` for API category packages ([#12081](https://github.com/aws-amplify/amplify-js/issues/12081)) ([51a8a54](https://github.com/aws-amplify/amplify-js/commit/51a8a548241563f750d90532ea548e475ffff0cc))
+- **data:** update and re-enable GraphQL API unit tests ([#12421](https://github.com/aws-amplify/amplify-js/issues/12421)) ([c5474d6](https://github.com/aws-amplify/amplify-js/commit/c5474d675fd99b388aa0f3240b9fd8857b974458)), closes [#12416](https://github.com/aws-amplify/amplify-js/issues/12416)
+- ssr support for graphql ([#12430](https://github.com/aws-amplify/amplify-js/issues/12430)) ([6f4d984](https://github.com/aws-amplify/amplify-js/commit/6f4d98474db133959560232e3e4804ca84c4ba89))
+- V6 api graphql ssr ([#12214](https://github.com/aws-amplify/amplify-js/issues/12214)) ([d4a8756](https://github.com/aws-amplify/amplify-js/commit/d4a8756ac7bc2fcc91e963ff86fd68e7610d3e73))
+
+### Reverts
+
+- Revert "remove unused tests" ([857af81](https://github.com/aws-amplify/amplify-js/commit/857af819e3030d5e609cf8ec45ed989a0910d982))
+- Revert "cleanup" ([155dfd8](https://github.com/aws-amplify/amplify-js/commit/155dfd8b31fa739cd1820f1f95e54f4784cdf736))
+
 ## 3.4.10 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/api-graphql

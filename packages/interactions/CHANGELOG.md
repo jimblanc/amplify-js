@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/interactions@5.2.11...@aws-amplify/interactions@6.1.0) (2023-11-01)
+
+### Bug Fixes
+
+- **interactions:** add deprecation announcement for LexV1 module ([#12344](https://github.com/aws-amplify/amplify-js/issues/12344)) ([48856e6](https://github.com/aws-amplify/amplify-js/commit/48856e6a7dac6d3aa509e4f91e7d5af184190f60))
+- **interactions:** align type names and use named params ([#12406](https://github.com/aws-amplify/amplify-js/issues/12406)) ([dc4b91f](https://github.com/aws-amplify/amplify-js/commit/dc4b91f221ed11f1f9b65f38a911c8b27243645e))
+
+### Features
+
+- change JS target to ES2020 ([#12365](https://github.com/aws-amplify/amplify-js/issues/12365)) ([381b201](https://github.com/aws-amplify/amplify-js/commit/381b2010afb0ca72d392307d4da64af3ca146d6f))
+- **interactions:** adapt v6 api design ([#12285](https://github.com/aws-amplify/amplify-js/issues/12285)) ([76471b6](https://github.com/aws-amplify/amplify-js/commit/76471b6488efc37d7d0bdc1feb7fcbc97334ec7c))
+
 ## 5.2.10 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/interactions

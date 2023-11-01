@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/analytics@6.5.5...@aws-amplify/analytics@7.1.0) (2023-11-01)
+
+### Bug Fixes
+
+- Analytics dependencies ([#12212](https://github.com/aws-amplify/amplify-js/issues/12212)) ([a667688](https://github.com/aws-amplify/amplify-js/commit/a667688d7f1c784fc19af7f91b3b5e02fe48a597))
+- **analytics:** cache event buffer without session info ([#12399](https://github.com/aws-amplify/amplify-js/issues/12399)) ([596adbb](https://github.com/aws-amplify/amplify-js/commit/596adbbd1e858f3b999f8369dd438523fb7b10ec))
+- **analytics:** customize user-agent header for aws client ([#12187](https://github.com/aws-amplify/amplify-js/issues/12187)) ([c48e88a](https://github.com/aws-amplify/amplify-js/commit/c48e88acfa2162a6fdbe56e604a6e8646ea0b068))
+- Pinpoint session generation ([#12407](https://github.com/aws-amplify/amplify-js/issues/12407)) ([dae7b27](https://github.com/aws-amplify/amplify-js/commit/dae7b27bc52f88c40a556cdf25836b64d38514a5))
+- remove all existence of serviceOptions ([#12240](https://github.com/aws-amplify/amplify-js/issues/12240)) ([923fae0](https://github.com/aws-amplify/amplify-js/commit/923fae03496b835cbd4bd49d10f13744e175b080))
+- **repo:** \*\*/package.json files glob broke size-limit dual-publish ([923f5b1](https://github.com/aws-amplify/amplify-js/commit/923f5b16caf00ecc90987bd1eb7742d5ba5a98fd))
+
+### Features
+
+- Added `enable` & `disable` Analytics APIs ([#12136](https://github.com/aws-amplify/amplify-js/issues/12136)) ([b16e062](https://github.com/aws-amplify/amplify-js/commit/b16e062ae175b1a27df3b8e6ae089b4f59141af5))
+- **analtics:** add flushEvents for service provider Pinpoint ([#12183](https://github.com/aws-amplify/amplify-js/issues/12183)) ([3e7c526](https://github.com/aws-amplify/amplify-js/commit/3e7c5261ae31645ebb203d3ecf1b0247403c7846))
+- **analytics:** add flushEvents API for service provider KDF ([#12174](https://github.com/aws-amplify/amplify-js/issues/12174)) ([7391121](https://github.com/aws-amplify/amplify-js/commit/73911217a2a1eae5b94a7947fe02c1298a33099b))
+- **analytics:** add flushEvents API for service provider KDS ([#12173](https://github.com/aws-amplify/amplify-js/issues/12173)) ([c291da3](https://github.com/aws-amplify/amplify-js/commit/c291da3a1f39df1565f007bab1cb90873e06c7e9))
+- **analytics:** add flushEvents API for service provider Personalize ([#12181](https://github.com/aws-amplify/amplify-js/issues/12181)) ([8447b3f](https://github.com/aws-amplify/amplify-js/commit/8447b3f255178bb3a3f5824fd964c8797dfe1942))
+- **analytics:** add record API for Analytics service provider Personalize ([#12151](https://github.com/aws-amplify/amplify-js/issues/12151)) ([a2c4621](https://github.com/aws-amplify/amplify-js/commit/a2c4621c7c2871f757de1c11fd22428047a9ab8a))
+- **analytics:** add record api for kinesis service provider ([#12099](https://github.com/aws-amplify/amplify-js/issues/12099)) ([21f0bac](https://github.com/aws-amplify/amplify-js/commit/21f0bac721435e483cfc14ddae10c183319d04b4))
+- **analytics:** add record API for service provider kinesis firehose ([#12148](https://github.com/aws-amplify/amplify-js/issues/12148)) ([ad0ce0c](https://github.com/aws-amplify/amplify-js/commit/ad0ce0c1b2c1f659e36de2c417910f87926424a6))
+- **core:** add amplifyUuid and amplifyUrl with builtin polyfill loader for RN ([a4ad9e0](https://github.com/aws-amplify/amplify-js/commit/a4ad9e09d6098a53f4530d9fa9112c81b409a605))
+- disable request caching for cognito APIs ([#12020](https://github.com/aws-amplify/amplify-js/issues/12020)) ([6ba700b](https://github.com/aws-amplify/amplify-js/commit/6ba700bf0f3a8d9243b6c221ad2765f36278e2e7))
+- **InApp:** functional identifyUser API ([#12159](https://github.com/aws-amplify/amplify-js/issues/12159)) ([b83333f](https://github.com/aws-amplify/amplify-js/commit/b83333f508c154badc4832aeaa8c5911e6716fba))
+- **interactions:** adapt v6 api design ([#12285](https://github.com/aws-amplify/amplify-js/issues/12285)) ([76471b6](https://github.com/aws-amplify/amplify-js/commit/76471b6488efc37d7d0bdc1feb7fcbc97334ec7c))
+- **notifications:** Refactor push notification to be functional ([#12305](https://github.com/aws-amplify/amplify-js/issues/12305)) ([8eb24ad](https://github.com/aws-amplify/amplify-js/commit/8eb24add53c0dc188d7331a9c49cd01073bbc1f5)), closes [#12301](https://github.com/aws-amplify/amplify-js/issues/12301) [#12292](https://github.com/aws-amplify/amplify-js/issues/12292) [#12276](https://github.com/aws-amplify/amplify-js/issues/12276) [#12294](https://github.com/aws-amplify/amplify-js/issues/12294) [#12310](https://github.com/aws-amplify/amplify-js/issues/12310) [#12304](https://github.com/aws-amplify/amplify-js/issues/12304)
+- Pinpoint configureAutoTrack & tracker migration ([#12322](https://github.com/aws-amplify/amplify-js/issues/12322)) ([c5ca240](https://github.com/aws-amplify/amplify-js/commit/c5ca240faf6e94bdb4c709ff434253096879d573))
+
 ## 6.5.4 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/analytics

@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/notifications@1.6.5...@aws-amplify/notifications@2.1.0) (2023-11-01)
+
+### Bug Fixes
+
+- export missing output type ([#12434](https://github.com/aws-amplify/amplify-js/issues/12434)) ([9717d77](https://github.com/aws-amplify/amplify-js/commit/9717d7742a77ac2e56bdbd690d40f95f0067d8ab))
+- **inapp:** make the correct isBrowser check ([#12319](https://github.com/aws-amplify/amplify-js/issues/12319)) ([5739b67](https://github.com/aws-amplify/amplify-js/commit/5739b677ac38319c3ecf6fe356ae492fbd8ce7e9))
+- **inapp:** remove implemented todos and add clearMessages API ([#12405](https://github.com/aws-amplify/amplify-js/issues/12405)) ([ef40632](https://github.com/aws-amplify/amplify-js/commit/ef4063250bf2fa484a1ec3cade10d34ea39318c8))
+- **notifications:** add notifications as dependency to aws-amplify ([#12199](https://github.com/aws-amplify/amplify-js/issues/12199)) ([9743838](https://github.com/aws-amplify/amplify-js/commit/97438380688e1a4f87a7bb5b97b2612e6d718459))
+- **notifications:** Duplicate types from optional packages ([#12446](https://github.com/aws-amplify/amplify-js/issues/12446)) ([#12452](https://github.com/aws-amplify/amplify-js/issues/12452)) ([6a1a0cb](https://github.com/aws-amplify/amplify-js/commit/6a1a0cb52001fb1ce6182b6a728fa515585b9b3a))
+- remove all existence of serviceOptions ([#12240](https://github.com/aws-amplify/amplify-js/issues/12240)) ([923fae0](https://github.com/aws-amplify/amplify-js/commit/923fae03496b835cbd4bd49d10f13744e175b080))
+
+### Features
+
+- **core:** add amplifyUuid and amplifyUrl with builtin polyfill loader for RN ([a4ad9e0](https://github.com/aws-amplify/amplify-js/commit/a4ad9e09d6098a53f4530d9fa9112c81b409a605))
+- **inApp:** functional dispatchEvent & setConflictHandler APIs ([#12231](https://github.com/aws-amplify/amplify-js/issues/12231)) ([f5bcc3a](https://github.com/aws-amplify/amplify-js/commit/f5bcc3a082e5609b094c1508c434973165245472))
+- **InApp:** functional identifyUser API ([#12159](https://github.com/aws-amplify/amplify-js/issues/12159)) ([b83333f](https://github.com/aws-amplify/amplify-js/commit/b83333f508c154badc4832aeaa8c5911e6716fba))
+- **InApp:** functional syncMessages API ([#12145](https://github.com/aws-amplify/amplify-js/issues/12145)) ([a9c8854](https://github.com/aws-amplify/amplify-js/commit/a9c88541a8d6d406aeac93d3a45f2778017dd47b))
+- **inapp:** initializeInAppMessaging API ([#12269](https://github.com/aws-amplify/amplify-js/issues/12269)) ([134f90a](https://github.com/aws-amplify/amplify-js/commit/134f90a0c6f34071b4508832ff40ee9ac3dd8afb))
+- **inapp:** interaction events APIs ([#12242](https://github.com/aws-amplify/amplify-js/issues/12242)) ([62beb83](https://github.com/aws-amplify/amplify-js/commit/62beb836dc163d590b43b3319e255f8ceb0800ae))
+- Integrate In-App with core session listener ([#12338](https://github.com/aws-amplify/amplify-js/issues/12338)) ([22726bb](https://github.com/aws-amplify/amplify-js/commit/22726bb4c52c5533124a6181970d4c8e9c4be2de))
+- **interactions:** adapt v6 api design ([#12285](https://github.com/aws-amplify/amplify-js/issues/12285)) ([76471b6](https://github.com/aws-amplify/amplify-js/commit/76471b6488efc37d7d0bdc1feb7fcbc97334ec7c))
+- **notifications:** Add additional push APIs ([#12316](https://github.com/aws-amplify/amplify-js/issues/12316)) ([10e10b1](https://github.com/aws-amplify/amplify-js/commit/10e10b1244898bb06333865dd11ab49ed804eb05))
+- **notifications:** Refactor push notification to be functional ([#12305](https://github.com/aws-amplify/amplify-js/issues/12305)) ([8eb24ad](https://github.com/aws-amplify/amplify-js/commit/8eb24add53c0dc188d7331a9c49cd01073bbc1f5)), closes [#12301](https://github.com/aws-amplify/amplify-js/issues/12301) [#12292](https://github.com/aws-amplify/amplify-js/issues/12292) [#12276](https://github.com/aws-amplify/amplify-js/issues/12276) [#12294](https://github.com/aws-amplify/amplify-js/issues/12294) [#12310](https://github.com/aws-amplify/amplify-js/issues/12310) [#12304](https://github.com/aws-amplify/amplify-js/issues/12304)
+- **notifications:** setup package structure and update V6 import paths ([#12079](https://github.com/aws-amplify/amplify-js/issues/12079)) ([798707b](https://github.com/aws-amplify/amplify-js/commit/798707bba042301d4318291127d25e40cd6bcaac))
+
 ## 1.6.4 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/notifications

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/pubsub@5.5.5...@aws-amplify/pubsub@6.1.0) (2023-11-01)
+
+### Bug Fixes
+
+- **storage|aws-amplify:** export server apis from the subpaths ([#11910](https://github.com/aws-amplify/amplify-js/issues/11910)) ([23fa46a](https://github.com/aws-amplify/amplify-js/commit/23fa46a9c714273449861baf12bfa6a2ebd1ce9e))
+
+### Features
+
+- **core:** add amplifyUuid and amplifyUrl with builtin polyfill loader for RN ([a4ad9e0](https://github.com/aws-amplify/amplify-js/commit/a4ad9e09d6098a53f4530d9fa9112c81b409a605))
+- PubSub for V6 ([#12265](https://github.com/aws-amplify/amplify-js/issues/12265)) ([32d7532](https://github.com/aws-amplify/amplify-js/commit/32d7532d25dd70a552dad82b4ae197dafe118a30))
+
 ## 5.5.4 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/pubsub

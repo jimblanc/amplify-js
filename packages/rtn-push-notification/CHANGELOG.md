@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/rtn-push-notification@1.1.7...@aws-amplify/rtn-push-notification@1.3.0) (2023-11-01)
+
+### Bug Fixes
+
+- **notifications:** add notifications as dependency to aws-amplify ([#12199](https://github.com/aws-amplify/amplify-js/issues/12199)) ([9743838](https://github.com/aws-amplify/amplify-js/commit/97438380688e1a4f87a7bb5b97b2612e6d718459))
+- **notifications:** Duplicate types from optional packages ([#12446](https://github.com/aws-amplify/amplify-js/issues/12446)) ([#12452](https://github.com/aws-amplify/amplify-js/issues/12452)) ([6a1a0cb](https://github.com/aws-amplify/amplify-js/commit/6a1a0cb52001fb1ce6182b6a728fa515585b9b3a))
+
+### Features
+
+- **notifications:** Add additional push APIs ([#12316](https://github.com/aws-amplify/amplify-js/issues/12316)) ([10e10b1](https://github.com/aws-amplify/amplify-js/commit/10e10b1244898bb06333865dd11ab49ed804eb05))
+- **notifications:** Refactor push notification to be functional ([#12305](https://github.com/aws-amplify/amplify-js/issues/12305)) ([8eb24ad](https://github.com/aws-amplify/amplify-js/commit/8eb24add53c0dc188d7331a9c49cd01073bbc1f5)), closes [#12301](https://github.com/aws-amplify/amplify-js/issues/12301) [#12292](https://github.com/aws-amplify/amplify-js/issues/12292) [#12276](https://github.com/aws-amplify/amplify-js/issues/12276) [#12294](https://github.com/aws-amplify/amplify-js/issues/12294) [#12310](https://github.com/aws-amplify/amplify-js/issues/12310) [#12304](https://github.com/aws-amplify/amplify-js/issues/12304)
+
 ## 1.1.6 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/rtn-push-notification

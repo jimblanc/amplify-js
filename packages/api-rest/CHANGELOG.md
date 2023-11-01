@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/api-rest@3.5.5...@aws-amplify/api-rest@4.1.0) (2023-11-01)
+
+### Bug Fixes
+
+- **storage|aws-amplify:** export server apis from the subpaths ([#11910](https://github.com/aws-amplify/amplify-js/issues/11910)) ([23fa46a](https://github.com/aws-amplify/amplify-js/commit/23fa46a9c714273449861baf12bfa6a2ebd1ce9e))
+- **storage:** align cancel behavior with api-rest ([#12239](https://github.com/aws-amplify/amplify-js/issues/12239)) ([f8a7145](https://github.com/aws-amplify/amplify-js/commit/f8a7145f67d9db12fc52608b4202e08c02613feb))
+
+### Features
+
+- **api-rest:** internal API handling GraphQL requests ([#12138](https://github.com/aws-amplify/amplify-js/issues/12138)) ([3bbd5d9](https://github.com/aws-amplify/amplify-js/commit/3bbd5d91926d90d58fbdab3516ed546c3be7b37c))
+- **api-rest:** support making external promise cancellable ([#12167](https://github.com/aws-amplify/amplify-js/issues/12167)) ([a26f692](https://github.com/aws-amplify/amplify-js/commit/a26f6928f8306d76fc5c8e27c3eeb84539b2d6ed))
+- **api:** REST API handlers ([#12172](https://github.com/aws-amplify/amplify-js/issues/12172)) ([8d0489f](https://github.com/aws-amplify/amplify-js/commit/8d0489f0fafad9eb26fc4bd6be97ba13aa345448))
+- **api:** update API config interface ([#12122](https://github.com/aws-amplify/amplify-js/issues/12122)) ([3e17805](https://github.com/aws-amplify/amplify-js/commit/3e1780544f16fc769bb3c7316b413b966c909515))
+- **core:** add amplifyUuid and amplifyUrl with builtin polyfill loader for RN ([a4ad9e0](https://github.com/aws-amplify/amplify-js/commit/a4ad9e09d6098a53f4530d9fa9112c81b409a605))
+
 ## 3.5.4 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/api-rest
