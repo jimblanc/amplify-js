@@ -36,6 +36,54 @@
 	"react-native": {
 		"./lib/index": "./lib-esm/index.js"
 	},
+	"exports": {
+		".": {
+			"types": "./lib-esm/index.d.ts",
+			"import": "./lib-esm/index.js",
+			"require": "./lib/index.js"
+		},
+		"./server": {
+			"types": "./lib-esm/server.d.ts",
+			"import": "./lib-esm/server.js",
+			"require": "./lib/server.js"
+		},
+		"./internals/adapter-core": {
+			"types": "./lib-esm/adapterCore/index.d.ts",
+			"import": "./lib-esm/adapterCore/index.js",
+			"require": "./lib/adapterCore/index.js"
+		},
+		"./internals/aws-client-utils": {
+			"types": "./lib-esm/clients/index.d.ts",
+			"import": "./lib-esm/clients/index.js",
+			"require": "./lib/clients/index.js"
+		},
+		"./internals/aws-client-utils/composers": {
+			"types": "./lib-esm/clients/internal/index.d.ts",
+			"import": "./lib-esm/clients/internal/index.js",
+			"require": "./lib/clients/internal/index.js"
+		},
+		"./internals/aws-clients/cognitoIdentity": {
+			"types": "./lib-esm/awsClients/cognitoIdentity/index.d.ts",
+			"import": "./lib-esm/awsClients/cognitoIdentity/index.js",
+			"require": "./lib/awsClients/cognitoIdentity/index.js"
+		},
+		"./internals/aws-clients/pinpoint": {
+			"types": "./lib-esm/awsClients/pinpoint/index.d.ts",
+			"import": "./lib-esm/awsClients/pinpoint/index.js",
+			"require": "./lib/awsClients/pinpoint/index.js"
+		},
+		"./internals/providers/pinpoint": {
+			"types": "./lib-esm/providers/pinpoint/index.d.ts",
+			"import": "./lib-esm/providers/pinpoint/index.js",
+			"require": "./lib/providers/pinpoint/index.js"
+		},
+		"./internals/utils": {
+			"types": "./lib-esm/libraryUtils.d.ts",
+			"import": "./lib-esm/libraryUtils.js",
+			"require": "./lib/libraryUtils.js"
+		},
+		"./package.json": "./package.json"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/aws-amplify/amplify-js.git"
