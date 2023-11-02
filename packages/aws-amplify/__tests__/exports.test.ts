@@ -52,13 +52,13 @@ describe('aws-amplify Exports', () => {
 			Array [
 			  "generateClient",
 			  "GraphQLAuthError",
-			  "get",
-			  "put",
-			  "post",
 			  "del",
+			  "get",
 			  "head",
-			  "patch",
 			  "isCancelError",
+			  "patch",
+			  "post",
+			  "put",
 			]
 		`);
 		});
