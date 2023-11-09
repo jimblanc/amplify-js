@@ -1,6 +1,6 @@
 {
 	"name": "@aws-amplify/api-graphql",
-	"version": "4.0.1",
+	"version": "4.0.2",
 	"description": "Api-graphql category of aws-amplify",
 	"main": "./dist/cjs/index.js",
 	"module": "./dist/esm/index.mjs",
@@ -64,7 +64,7 @@
 		"@aws-amplify/core": "^6.0.0"
 	},
 	"devDependencies": {
-		"@aws-amplify/core": "6.0.1",
+		"@aws-amplify/core": "6.0.2",
 		"@rollup/plugin-typescript": "11.1.5",
 		"rollup": "3.29.4"
 	},
@@ -75,7 +75,7 @@
 		"internals"
 	],
 	"dependencies": {
-		"@aws-amplify/api-rest": "4.0.1",
+		"@aws-amplify/api-rest": "4.0.2",
 		"@aws-sdk/types": "3.387.0",
 		"graphql": "15.8.0",
 		"rxjs": "^7.8.1",

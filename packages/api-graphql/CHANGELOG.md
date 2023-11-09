@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.2](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/api-graphql@4.0.1...@aws-amplify/api-graphql@4.0.2) (2023-11-09)
+
+### Bug Fixes
+
+- API GraphQL dependencies on core & auth. ([250bff8](https://github.com/aws-amplify/amplify-js/commit/250bff8654cc6af9e447a4d07acc5390a1d72648))
+
 ## 3.4.10 (2023-08-23)
 
 **Note:** Version bump only for package @aws-amplify/api-graphql
