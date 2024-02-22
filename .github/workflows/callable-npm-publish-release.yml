@@ -9,7 +9,6 @@ jobs:
     steps:
       - name: Generate a temporary branch name for merge PR
         id: generate-branch-name
-        working-directory: ./amplify-js
         run: |
           echo "BRANCH_NAME=temp/release-merge-$(date +%s)" >> "$GITHUB_OUTPUT"
     outputs:
