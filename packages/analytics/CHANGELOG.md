@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.21](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/analytics@7.0.20...@aws-amplify/analytics@7.0.21) (2024-03-19)
+
+### Reverts
+
+- Revert "chore(release): Publish [skip release]" ([241fa11](https://github.com/aws-amplify/amplify-js/commit/241fa1105e177d9e4afe59c40ee92656b87ae542))
+
 ## 7.0.20 (2024-03-11)
 
 **Note:** Version bump only for package @aws-amplify/analytics

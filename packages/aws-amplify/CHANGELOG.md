@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.21](https://github.com/aws-amplify/amplify-js/compare/aws-amplify@6.0.20...aws-amplify@6.0.21) (2024-03-19)
+
+### Bug Fixes
+
+- **data:** fix subpath when using React Native ([#13102](https://github.com/aws-amplify/amplify-js/issues/13102)) ([#13106](https://github.com/aws-amplify/amplify-js/issues/13106)) ([79e32a9](https://github.com/aws-amplify/amplify-js/commit/79e32a909d7065651bc6e0f8831ad78acc605848))
+
+### Reverts
+
+- Revert "chore(release): Publish [skip release]" ([241fa11](https://github.com/aws-amplify/amplify-js/commit/241fa1105e177d9e4afe59c40ee92656b87ae542))
+
 ## 6.0.20 (2024-03-11)
 
 **Note:** Version bump only for package aws-amplify

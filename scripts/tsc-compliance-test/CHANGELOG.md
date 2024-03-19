@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.21](https://github.com/jimblanc/amplify-js/compare/tsc-compliance-test@0.1.20...tsc-compliance-test@0.1.21) (2024-03-19)
+
+### Reverts
+
+- Revert "chore(release): Publish [skip release]" ([241fa11](https://github.com/jimblanc/amplify-js/commit/241fa1105e177d9e4afe59c40ee92656b87ae542))
+
 ## 0.1.20 (2024-03-11)
 
 **Note:** Version bump only for package tsc-compliance-test

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.21](https://github.com/jimblanc/amplify-js/compare/@aws-amplify/adapter-nextjs@1.0.20...@aws-amplify/adapter-nextjs@1.0.21) (2024-03-19)
+
+### Reverts
+
+- Revert "chore(release): Publish [skip release]" ([241fa11](https://github.com/jimblanc/amplify-js/commit/241fa1105e177d9e4afe59c40ee92656b87ae542))
+
 ## 1.0.20 (2024-03-11)
 
 **Note:** Version bump only for package @aws-amplify/adapter-nextjs
